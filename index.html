@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imperial Assault Dice Roller</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Star Wars Imperial Assault: Dice Roller</h1>
+  <div class="dice-selection">
+    <div class="results" id="results"></div>
+    <div id="dice-results">
+        <div id="red-dice-results"></div>
+        <div id="blue-dice-results"></div>
+        <div id="yellow-dice-results"></div>
+        <div id="green-dice-results"></div>
+        <div id="black-dice-results"></div>
+        <div id="white-dice-results"></div>
+      </div>
+      <div id="results"></div>
+    <p>
+    <label for="redDice">Red Dice: </label>
+    <select id="redDice">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+</p>
+    <p>
+    <label for="blueDice">Blue Dice: </label>
+    <select id="blueDice">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+</p>
+    <p>
+    <label for="yellowDice">Yellow Dice: </label>
+    <select id="yellowDice">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+</p>
+    <p>
+    <label for="greenDice">Green Dice: </label>
+    <select id="greenDice">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+    </p>
+    <p>
+    <label for="blackDice">Black Dice: </label>
+    <select id="blackDice">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+</p>
+    <p>
+    <label for="whiteDice">White Dice: </label>
+    <select id="whiteDice">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+    </p>
+  </div>
+
+    <div id="dice-results">
+        <div id="red-dice-results"></div>
+        <div id="blue-dice-results"></div>
+        <div id="yellow-dice-results"></div>
+        <div id="green-dice-results"></div>
+        <div id="black-dice-results"></div>
+        <div id="white-dice-results"></div>
+      </div>
+      <div id="results"></div>
+      
+  </div>
+  <button class="roll-btn" onclick="rollDice()">Roll Dice</button>
+  
+ 
+
+  <script src="script.js"></script>
+
+</body>
+</html>
