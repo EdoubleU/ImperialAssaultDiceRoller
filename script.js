@@ -1,55 +1,55 @@
 const redDice = [
-    { damage: 1, surge: 0, range: 0, image: '../Assets/dicefaces/r1.png' },
-    { damage: 2, surge: 0, range: 0, image: '../Assets/dicefaces/r2.png' },
-    { damage: 2, surge: 0, range: 0, image: '../Assets/dicefaces/r3.png' },
-    { damage: 2, surge: 1, range: 0, image: '../Assets/dicefaces/r4.png' },
-    { damage: 3, surge: 0, range: 0, image: '../Assets/dicefaces/r5.png' },
-    { damage: 3, surge: 0, range: 0, image: '../Assets/dicefaces/r6.png' }
+    { damage: 1, surge: 0, range: 0, image: './Assets/dicefaces/r1.png' },
+    { damage: 2, surge: 0, range: 0, image: './Assets/dicefaces/r2.png' },
+    { damage: 2, surge: 0, range: 0, image: './Assets/dicefaces/r3.png' },
+    { damage: 2, surge: 1, range: 0, image: './Assets/dicefaces/r4.png' },
+    { damage: 3, surge: 0, range: 0, image: './Assets/dicefaces/r5.png' },
+    { damage: 3, surge: 0, range: 0, image: './Assets/dicefaces/r6.png' }
   ];
   
   const blueDice = [
-    { damage: 0, surge: 1, range: 2, image: '../Assets/dicefaces/b1.png' },
-    { damage: 1, surge: 0, range: 2, image: '../Assets/dicefaces/b2.png' },
-    { damage: 2, surge: 0, range: 3, image: '../Assets/dicefaces/b3.png' },
-    { damage: 1, surge: 1, range: 3, image: '../Assets/dicefaces/b4.png' },
-    { damage: 2, surge: 0, range: 4, image: '../Assets/dicefaces/b5.png' },
-    { damage: 3, surge: 0, range: 5, image: '../Assets/dicefaces/b6.png' }
+    { damage: 0, surge: 1, range: 2, image: './Assets/dicefaces/b1.png' },
+    { damage: 1, surge: 0, range: 2, image: './Assets/dicefaces/b2.png' },
+    { damage: 2, surge: 0, range: 3, image: './Assets/dicefaces/b3.png' },
+    { damage: 1, surge: 1, range: 3, image: './Assets/dicefaces/b4.png' },
+    { damage: 2, surge: 0, range: 4, image: './Assets/dicefaces/b5.png' },
+    { damage: 3, surge: 0, range: 5, image: './Assets/dicefaces/b6.png' }
   ];
   
   const greenDice = [
-    { damage: 0, surge: 1, range: 1, image: '../Assets/dicefaces/g1.png' },
-    { damage: 1, surge: 1, range: 1, image: '../Assets/dicefaces/g2.png' },
-    { damage: 2, surge: 0, range: 1, image: '../Assets/dicefaces/g3.png' },
-    { damage: 1, surge: 1, range: 2, image: '../Assets/dicefaces/g4.png' },
-    { damage: 2, surge: 0, range: 2, image: '../Assets/dicefaces/g5.png' },
-    { damage: 2, surge: 0, range: 3, image: '../Assets/dicefaces/g6.png' }
+    { damage: 0, surge: 1, range: 1, image: './Assets/dicefaces/g1.png' },
+    { damage: 1, surge: 1, range: 1, image: './Assets/dicefaces/g2.png' },
+    { damage: 2, surge: 0, range: 1, image: './Assets/dicefaces/g3.png' },
+    { damage: 1, surge: 1, range: 2, image: './Assets/dicefaces/g4.png' },
+    { damage: 2, surge: 0, range: 2, image: './Assets/dicefaces/g5.png' },
+    { damage: 2, surge: 0, range: 3, image: './Assets/dicefaces/g6.png' }
   ];
   
   const yellowDice = [
-    { damage: 0, surge: 1, range: 0, image: '../Assets/dicefaces/y1.png' },
-    { damage: 1, surge: 2, range: 0, image: '../Assets/dicefaces/y2.png' },
-    { damage: 2, surge: 0, range: 1, image: '../Assets/dicefaces/y3.png' },
-    { damage: 1, surge: 1, range: 1, image: '../Assets/dicefaces/y4.png' },
-    { damage: 3, surge: 1, range: 2, image: '../Assets/dicefaces/y5.png' },
-    { damage: 1, surge: 0, range: 2, image: '../Assets/dicefaces/y6.png' }
+    { damage: 0, surge: 1, range: 0, image: './Assets/dicefaces/y1.png' },
+    { damage: 1, surge: 2, range: 0, image: './Assets/dicefaces/y2.png' },
+    { damage: 2, surge: 0, range: 1, image: './Assets/dicefaces/y3.png' },
+    { damage: 1, surge: 1, range: 1, image: './Assets/dicefaces/y4.png' },
+    { damage: 3, surge: 1, range: 2, image: './Assets/dicefaces/y5.png' },
+    { damage: 1, surge: 0, range: 2, image: './Assets/dicefaces/y6.png' }
   ];
   
   const blackDice = [
-    { defend: 1, surgeBlock: 0, image: '../Assets/dicefaces/bl1.png' },
-    { defend: 1, surgeBlock: 0, image: '../Assets/dicefaces/bl2.png' },
-    { defend: 2, surgeBlock: 0, image: '../Assets/dicefaces/bl3.png' },
-    { defend: 2, surgeBlock: 0, image: '../Assets/dicefaces/bl4.png' },
-    { defend: 3, surgeBlock: 0, image: '../Assets/dicefaces/bl5.png' },
-    { defend: 0, surgeBlock: 1, image: '../Assets/dicefaces/bl6.png' }
+    { defend: 1, surgeBlock: 0, image: './Assets/dicefaces/bl1.png' },
+    { defend: 1, surgeBlock: 0, image: './Assets/dicefaces/bl2.png' },
+    { defend: 2, surgeBlock: 0, image: './Assets/dicefaces/bl3.png' },
+    { defend: 2, surgeBlock: 0, image: './Assets/dicefaces/bl4.png' },
+    { defend: 3, surgeBlock: 0, image: './Assets/dicefaces/bl5.png' },
+    { defend: 0, surgeBlock: 1, image: './Assets/dicefaces/bl6.png' }
   ];
   
   const whiteDice = [
-    { defend: 0, surgeBlock: 0, image: '../Assets/dicefaces/w1.png' },
-    { defend: 1, surgeBlock: 0, image: '../Assets/dicefaces/w2.png' },
-    { defend: 0, surgeBlock: 1, image: '../Assets/dicefaces/w3.png' },
-    { defend: 1, surgeBlock: 1, image: '../Assets/dicefaces/w4.png' },
-    { defend: 1, surgeBlock: 1, image: '../Assets/dicefaces/w5.png' },
-    { defend: 100, surgeBlock: 100, image: '../Assets/dicefaces/w6.png'} // Special result for white die
+    { defend: 0, surgeBlock: 0, image: './Assets/dicefaces/w1.png' },
+    { defend: 1, surgeBlock: 0, image: './Assets/dicefaces/w2.png' },
+    { defend: 0, surgeBlock: 1, image: './Assets/dicefaces/w3.png' },
+    { defend: 1, surgeBlock: 1, image: './Assets/dicefaces/w4.png' },
+    { defend: 1, surgeBlock: 1, image: './Assets/dicefaces/w5.png' },
+    { defend: 100, surgeBlock: 100, image: './Assets/dicefaces/w6.png'} // Special result for white die
   ];
   
   
