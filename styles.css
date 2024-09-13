@@ -11,7 +11,7 @@ body {
   h1 {
     font-size: 2em;
     letter-spacing: 2px;
-    margin: 20px;
+    margin: 10px;
     color: #ffe81f; /* Star Wars yellow */
     text-shadow: 0 0 1px #ffe81f, 0 0 1px #ffe81f, 0 0 1px #ffe81f; /* Glow effect */
     animation: crawlText 10s linear infinite; /* Add a Star Wars crawl animation */
